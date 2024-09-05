@@ -1,0 +1,23 @@
+{
+  "name": "nqr.db",
+  "version": "0.1.0-beta",
+  "description": "A database package for managing key-value pairs in JSON format.",
+  "main": "./dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "database",
+    "key-value",
+    "json"
+  ],
+  "author": "maxa_mm",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.4",
+    "@types/node": "^22.5.3"
+  }
+}

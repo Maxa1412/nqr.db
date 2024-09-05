@@ -1,0 +1,5 @@
+package-lock.json
+node_modules/
+tsconfig.json
+index.js
+nqrdb.json
