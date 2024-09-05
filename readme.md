@@ -7,7 +7,7 @@
 To use `NQRDB`, you need to have Node.js installed. Install the package using npm:
 
 ```bash
-npm install nqrdb
+npm install nqr.db
 ```
 
 ## Usage
@@ -16,8 +16,8 @@ Here's a quick overview of how to use `NQRDB`:
 
 ### Initialization
 
-```javascript
-import NQRDB from 'nqrdb';
+```typescript
+import { NQRDB } from 'nqrdb';
 
 // Create an instance of the database, with an optional file name.
 const db = new NQRDB('mydatabase.json');
