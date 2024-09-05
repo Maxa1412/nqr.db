@@ -4,3 +4,4 @@ node_modules/
 tsconfig.json
 index.js
 nqrdb.json
+.gitignore
